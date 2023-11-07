@@ -16,7 +16,7 @@ def non_recur(n):
         print(third)
         n = n - 1
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     n = 10
     first_value = 0
     second_value = 1

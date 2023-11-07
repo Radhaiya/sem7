@@ -16,5 +16,5 @@ def ksp():
     result = knapsack(W, n)
     print(f"The maximum value that can be obtained is: {result}")
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     ksp()

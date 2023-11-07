@@ -34,5 +34,5 @@ def n_queens(n):
 
     print(f"Total Solutions: {total_solutions}")
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     n_queens(5)

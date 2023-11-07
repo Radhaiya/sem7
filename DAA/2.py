@@ -23,7 +23,7 @@ class node:
 
         # if it's a leaf node, print the symbol
         if not self.left and not self.right:
-            print(f"{self.symbol} -> {newval}")
+            print("{} -> {}".format(self.symbol, newval))
 
 if __name__ == "__main__":
     chars = ['a', 'b', 'c', 'd', 'e', 'f']
@@ -45,4 +45,4 @@ if __name__ == "__main__":
         newnode = node(left.freq + right.freq, left.symbol + right.symbol, left, right)
         heapq.heappush(nodes, newnode)
 
-    printnodes(nodes[0])# Passing root of Huffman Tree
+    nodes[0].printnodes()
